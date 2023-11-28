@@ -1,38 +1,124 @@
-.App {
-  text-align: center;
+#id1{
+    font-family: 'Pacifico', cursive;
+}
+#home{
+    background-image: url("https://images.unsplash.com/photo-1490815809234-616a7ee1033d?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGJsYWNrJTIwaG91c2V8ZW58MHx8MHx8fDA%3D");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image:url("https://kmtkgroup-architecture.co.za/storage/portfolio/August2021/house-Martin-proposal.jpg") ; 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.adv3{
+    background-color: rgba(225, 222, 222, 0.732);
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
   }
-}
+  .adv4{
+    margin-top: 2%;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+    display: inline-block;
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
   }
-  to {
-    transform: rotate(360deg);
+  .adv5{
+    display: inline-block;
+    height: 400px;
+    width: 450px;
+ 
+    -top: -150px;
+    
   }
+  .adv7{
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 30px;
+  }
+  .adv8{
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 30px;
+  }
+  .adv11{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 40px; 
+  }
+.adv10{
+display: inline-block;
+margin-left: 40px;
+ margin-top: 30px; 
 }
+.class1{
+border-radius: 5%;
+}
+
+.adv-btn{
+    color:#ef3a50;
+    padding: 10px;
+    border: solid 1px #ef3a50;
+    background-color: rgba(225, 222, 222, 0.732);
+  }
+  .adv-btn:hover{
+    background-color:#ef3a50;
+    color: white;
+  }
+
+
+
+
+  /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  /* buy */
+  #buy1{
+    background-image: url("https://images.pexels.com/photos/323772/pexels-photo-323772.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+  }
+  #id5{
+    font-family: 'Playfair Display', serif;
+    font-weight:90px ;
+  }
